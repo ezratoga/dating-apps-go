@@ -14,13 +14,13 @@ You can register your account, login then swipe the profiles that
 ### Environment Variables
 This is the key that yo can declare in .env file:
 
-Variable	Description
+Variable = Description
 
-- DB_HOST	    Database host address
-- DB_PORT	    Database port
-- DB_USER	    Database username
-- DB_PASSWORD	Database password
-- JWT_KEY	    Secret key for signing JWT tokens
+- DB_HOST = Database host address
+- DB_PORT = Database port
+- DB_USER = Database username
+- DB_PASSWORD = Database password
+- JWT_KEY = Secret key for signing JWT tokens
 
 ### Setup and Installation
 
