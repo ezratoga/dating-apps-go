@@ -5,21 +5,22 @@ This is the backend system that may be implemented, built with Go and the Echo f
 You can register your account, login then swipe the profiles that 
 
 ### Tech Stack
-Go (Golang): Core backend language
-Echo: Web framework for routing and middleware
-PostgreSQL: Database for storing user profiles, matches, and messages
-JWT: JSON Web Tokens for secure user authentication
-Docker: Containerization for easy deployment
+- Go (Golang): Core backend language
+- Echo: Web framework for routing and middleware
+- PostgreSQL: Database for storing user profiles, matches, and messages
+- JWT: JSON Web Tokens for secure user authentication
+- Docker: Containerization for easy deployment
 
 ### Environment Variables
 This is the key that yo can declare in .env file:
 
 Variable	Description
-DB_HOST	    Database host address
-DB_PORT	    Database port
-DB_USER	    Database username
-DB_PASSWORD	Database password
-JWT_KEY	    Secret key for signing JWT tokens
+
+- DB_HOST	    Database host address
+- DB_PORT	    Database port
+- DB_USER	    Database username
+- DB_PASSWORD	Database password
+- JWT_KEY	    Secret key for signing JWT tokens
 
 ### Setup and Installation
 
